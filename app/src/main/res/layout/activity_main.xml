@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/txtlayout"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:background="@drawable/edittext_boarders"
+            android:inputType="textPersonName"
+            android:hint="Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/vt1"
+            android:visibility="gone"
+            android:layout_below="@id/txtName"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+
+        <EditText
+            android:id="@+id/txtPrice"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/vt1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_boarders"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Price" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/vt2"
+            android:visibility="gone"
+            android:layout_below="@id/txtPrice"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+
+        <EditText
+            android:id="@+id/txtDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/vt2"
+            android:background="@drawable/edittext_boarders"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:gravity="top|left"
+            android:cursorVisible="false"
+            android:scrollbars="vertical"
+            android:hint="Description" />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/vt3"
+            android:visibility="gone"
+            android:layout_below="@id/txtDesc"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnImage"
+        android:layout_below="@+id/txtlayout"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/round_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Image" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_below="@+id/btnImage"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

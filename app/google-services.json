@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "337398761314",
+    "firebase_url": "https://travalmantics.firebaseio.com",
+    "project_id": "travalmantics",
+    "storage_bucket": "travalmantics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337398761314:android:b4470d06b32c6715",
+        "android_client_info": {
+          "package_name": "com.example.travelmantics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337398761314-brn1fdb0pcrk3jdq8j25nmg3lukt7c5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travelmantics",
+            "certificate_hash": "0dcf209cb759099564ab7df0c9211e3d62fac7a6"
+          }
+        },
+        {
+          "client_id": "337398761314-k5mrrg0qhuq0n5g7n6jt46hbnu3moi8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpqosu_AYojpbtUPjvnXkmI1STyzGh6tY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337398761314-k5mrrg0qhuq0n5g7n6jt46hbnu3moi8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
